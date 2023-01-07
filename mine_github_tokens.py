@@ -1,3 +1,10 @@
+'''
+This script uses the GitHub search API to search for code that matches a given query. 
+In this case, the queries are for "api_key", "access_key", and "secret_key". The script prints the names of the repositories and file paths of any code that matches the query.
+
+Keep in mind that this script only searches for code that matches the given query. 
+It does not actually verify whether the code is an API key or access/secret key, or what service it is for. It also does not itemize the keys
+'''
 import requests
 
 # Set the GitHub API endpoint
